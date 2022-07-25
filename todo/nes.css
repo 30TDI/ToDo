@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgb(78, 78, 78) 72%, rgb(182, 182, 182) 100%);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 119, 255);
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50;
+}
+.input{
+   width: 700px;
+   border-radius: 10px;
+   font-size: 20px;
+   
+}
+#add {
+    background-color: rgb(0, 110, 255);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.validation{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.validation .yellow{
+    box-sizing: content-box;
+    background-color: rgb(237, 253, 11);
+    border: 1px solid black;
+    width: max-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;   
+    display: none;
+    margin-bottom: 10px;
+}
+
+
+#customers {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 68%;
+    margin: auto;
+    color: white;
+    
+} 
+#customers th,tr {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+} 
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    background-color: #0678fa;
+    color: white;
+}
+i{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+
+}
